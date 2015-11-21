@@ -1,0 +1,45 @@
+body {
+	background: url('bg.jpg') no-repeat center center fixed;
+}
+.header{
+	background-color: #348FE2;
+	margin-left:-8px;
+	margin-right:-8px;
+
+	color: white;
+	height: 90px;
+	font-family: calibri;
+	margin-top: -20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.header h1{
+	height: 50px;
+	text-align: right;
+}
+.header h2{
+	color: #EFEFEF;
+}
+.inner h1{
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	font-family: calibri;
+}
+.inner h3{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	font-family: calibri;
+}
+.inner h4{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-family: calibri;
+}
+.inner{
+	background-color: rgba(22, 115, 255, 0.45);
+	border: 1px solid #348FE2;
+}
