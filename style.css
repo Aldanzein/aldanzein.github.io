@@ -1,11 +1,10 @@
 body {
-	background: url('bg.jpg') no-repeat center center fixed;
+	background: url('bg.jpg') center center fixed;
 }
 .header{
 	background-color: #348FE2;
 	margin-left:-8px;
 	margin-right:-8px;
-
 	color: white;
 	height: 90px;
 	font-family: calibri;
@@ -14,12 +13,20 @@ body {
 	padding-left: 20px;
 	padding-top: 10px;
 }
+.header	 a{
+	text-decoration: none;
+	color: white;
+}
+.header a :hover {
+	color: blue;
+}
 .header h1{
 	height: 50px;
 	text-align: right;
 }
 .header h2{
 	color: #EFEFEF;
+	position: fixed;
 }
 .inner h1{
 	font-size: 100px;
@@ -42,4 +49,40 @@ body {
 .inner{
 	background-color: rgba(22, 115, 255, 0.45);
 	border: 1px solid #348FE2;
+	margin-top: 100px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+.content{
+}
+.content table{
+	margin-top: 100px;
+
+}
+.content td{
+	padding: 140px;
+}
+.box1{
+	width: 100px;
+	height: 100px;
+	background-color: #F9243F;
+	border-radius: 200px;
+	padding: 20px;
+	border: 5px solid #FF0055;
+}
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: #FFB53E;
+	border-radius: 200px;
+	padding: 20px;
+	border: 5px solid #E99414;
+}
+.box3{
+	width: 100px;
+	height: 100px;
+	background-color: #1EBFAE;
+	border-radius: 200px;
+	padding: 20px;
+	border: 5px solid #50A550;
 }
