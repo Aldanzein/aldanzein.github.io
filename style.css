@@ -18,7 +18,7 @@ body {
 	color: white;
 }
 .header a :hover {
-	color: blue;
+	color: grey;
 }
 .header h1{
 	height: 50px;
@@ -48,7 +48,7 @@ body {
 }
 .inner{
 	background-color: rgba(22, 115, 255, 0.45);
-	border: 1px solid #348FE2;
+	border: 1px dotted #348FE2;
 	margin-top: 100px;
 	margin-left: -8px;
 	margin-right: -8px;
@@ -68,7 +68,7 @@ body {
 	background-color: #F9243F;
 	border-radius: 200px;
 	padding: 20px;
-	border: 5px solid #FF0055;
+	border: 5px dotted #FF0055;
 }
 .box2{
 	width: 100px;
@@ -76,7 +76,7 @@ body {
 	background-color: #FFB53E;
 	border-radius: 200px;
 	padding: 20px;
-	border: 5px solid #E99414;
+	border: 5px dotted #E99414;
 }
 .box3{
 	width: 100px;
@@ -84,5 +84,14 @@ body {
 	background-color: #1EBFAE;
 	border-radius: 200px;
 	padding: 20px;
-	border: 5px solid #50A550;
+	border: 5px dotted #50A550;
+}
+.footer{
+	background-color: #383838;
+	width: 101%;
+	height: 200px;
+	margin-bottom: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+
 }
