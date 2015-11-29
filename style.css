@@ -1,5 +1,6 @@
 body {
 	background: url('bg.jpg') center center fixed;
+
 }
 .header{
 	background-color: #348FE2;
@@ -11,18 +12,24 @@ body {
 	margin-top: -20px;
 	padding-right: 20px;
 	padding-left: 20px;
-	padding-top: 10px;
+	padding-top: 20px;
+	border-bottom: 5px solid #787878;
+
 }
-.header	 a{
+.header a{
 	text-decoration: none;
 	color: white;
+	transition: all 5.6s ease;
+	margin-left	: 80px;
+	  filter: blur(1px);
+
 }
 .header a :hover {
-	color: grey;
+	color: #FFB53E;
 }
 .header h1{
 	height: 50px;
-	text-align: right;
+	text-align: center;
 }
 .header h2{
 	color: #EFEFEF;
@@ -52,6 +59,12 @@ body {
 	margin-top: 100px;
 	margin-left: -8px;
 	margin-right: -8px;
+	
+  -webkit-filter: blur(50px);
+  -moz-filter: blur(50px);
+  -o-filter: blur(50px);
+  -ms-filter: blur(50px);
+  filter: blur(1px);
 }
 .content{
 }
@@ -61,6 +74,12 @@ body {
 }
 .content td{
 	padding: 140px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(1px);
 }
 .box1{
 	width: 100px;
@@ -69,6 +88,7 @@ body {
 	border-radius: 200px;
 	padding: 20px;
 	border: 5px dotted #FF0055;
+	transition: all 0.6s ease;
 }
 .box2{
 	width: 100px;
@@ -93,5 +113,33 @@ body {
 	margin-bottom: -10px;
 	margin-left: -10px;
 	margin-right: -10px;
+	border-top: 5px solid #ccc;
 
+}
+
+.header .box1{
+	width: 20px;
+	height: 20px;
+	background-color: #F9243F;
+	border-radius: 200px;
+	border: 5px dotted #FF0055;
+	transition: all 0.6s ease;
+	padding-right: 20px;
+}
+.header .box2{
+	width: 20px;
+	height: 20px;
+	background-color: #FFB53E;
+	border-radius: 200px;
+	border: 5px dotted #E99414;
+	transition: all 0.6s ease;
+	padding: 20px;
+}
+.header .box3{
+	width: 20px;
+	height: 20px;
+	background-color: #1EBFAE;
+	border-radius: 200px;
+	border: 5px dotted #50A550;
+	transition: all 0.6s ease;
 }
