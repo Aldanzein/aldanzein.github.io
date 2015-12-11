@@ -1,3 +1,9 @@
+body{
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 17px;
+}
+
 .container{
     position: absolute;
     top: 87%;
@@ -9,6 +15,7 @@
 
  }
 
+
  .navbar
  {
     font-weight: 400;
@@ -19,6 +26,7 @@
 
  .navbar ul{
  	background-color: white;
+    border-bottom: 2px solid #ccc;
  }
 
  .inner{
@@ -30,11 +38,77 @@
  .banner {
     z-index: 1;
     top: 0;
-    position: fixed
+    position: fixed;
 }
 .footer
 {
 	background-color: #1f8dd6;
 	color: white;
 	padding: 20px;
+    text-transform: uppercase;
+}
+.inner2{
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: #404040;
+    color: #F4F4F4;
+}
+
+.inner2 img{
+    border-radius: 100px;
+}
+
+.inner3{
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: #EEEEEE;
+}
+
+.inner3 img{
+    border-radius: 200px;
+}
+
+.inner2 .pure-button {
+    font-size: 30px;  
+    margin-top: 40px;  
+}
+
+.inner3 .pure-button {
+    font-size: 30px;  
+    margin-top: 40px;  
+}
+
+/*---Responsive---*/
+
+@media only screen and (max-width: 980px) {
+    .navbar ul{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+    .navbar ul{
+        font-size: 9px;
+    }
+
+}
+@media only screen and (max-width: 630px) {
+    .navbar ul{
+        font-size: 7px;
+    }
+    .navbar .pure-link {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 1070px) {
+    .inner3 img 
+    {
+        width: 200px;
+        height: 200px;
+    }
 }
